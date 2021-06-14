@@ -1,0 +1,229 @@
+/*<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1055 483" style="enable-background:new 0 0 1055 483;" xml:space="preserve"><style type="text/css">*/
+
+p {
+    margin: 0 5px;
+}
+
+circle.indicator {
+    stroke: #BEBEBE;
+    fill: #BEBEBE;
+}
+
+circle.indicator.issue {
+    fill: #ffe600;
+    stroke: #ffe600;
+}
+
+circle.indicator.good {
+    fill: #8cc63f;
+    stroke: #8cc63f;
+}
+
+circle.indicator.bad {
+    fill: red;
+    stroke: red;
+}
+
+.pwdIcon {
+    fill: #000 !important;
+    stroke: #000 !important;
+    pointer-events: bounding-box;
+}
+
+.pwdIcon:hover {
+    fill: #00b9cc !important;
+    stroke: #00b9cc !important;
+}
+
+.pwdIcon .active {
+    fill: #00b9cc !important;
+    stroke: #00b9cc !important;
+}
+
+.dim {
+    fill: #182e4d;
+    stroke: #182e4d;
+}
+
+.dimStroke {
+    stroke: #bbbbbb;
+}
+
+svg.container {
+    height: 0;
+    /* collapse the container's height */
+    width: 100%;
+    /* specify any width you want (a percentage value, basically) */
+    /* apply a padding using the following formula */
+    /* this formula makes sure the aspect ratio of the container equals that of the svg graphic */
+    padding-top: 200%;
+    position: relative;
+    /* create positioning context for svg */
+    -webkit-text-size-adjust: 100%;
+}
+
+button {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    position: relative;
+    padding: 7px 45px;
+    color: white;
+    background-color: rgb(8, 8, 61);
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: cyan;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #cfd8dc;
+}
+
+button:disabled {
+    background-color: #eee;
+    color: #ccc;
+    cursor: auto;
+}
+
+.st0 {
+    fill: none;
+    stroke: #2BAAE2;
+    stroke-width: 5;
+    stroke-miterlimit: 10;
+    position: relative;
+}
+
+.st1 {
+    fill: #010101;
+    position: relative;
+}
+
+.st2 {
+    font-family: 'Helvetica-Bold';
+    position: relative;
+}
+
+.st3 {
+    font-size: 15px;
+    position: relative;
+}
+
+.st4 {
+    clip-path: url(#SVGID_2_);
+    fill: none;
+    stroke: #010101;
+    stroke-width: 5;
+    stroke-miterlimit: 10;
+    position: relative;
+}
+
+.st5 {
+    clip-path: url(#SVGID_2_);
+    fill: none;
+    stroke: #010101;
+    stroke-width: 3;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+    position: relative;
+}
+
+.st6 {
+    clip-path: url(#SVGID_2_);
+    fill: #010101;
+    position: relative;
+}
+
+.st7 {
+    clip-path: url(#SVGID_2_);
+    position: relative;
+}
+
+.st8 {
+    clip-path: url(#SVGID_2_);
+    fill: none;
+    stroke: #010101;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+    position: relative;
+}
+
+.st9 {
+    clip-path: url(#SVGID_2_);
+    fill: none;
+    stroke: #010101;
+    stroke-width: 0.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+    position: relative;
+}
+
+.st10 {
+    clip-path: url(#SVGID_4_);
+    fill: #010101;
+    position: relative;
+}
+
+.st11 {
+    clip-path: url(#SVGID_6_);
+    fill: none;
+    stroke: #010101;
+    stroke-width: 5;
+    stroke-miterlimit: 10;
+    position: relative;
+}
+
+.st12 {
+    clip-path: url(#SVGID_8_);
+    fill: none;
+    stroke: #010101;
+    stroke-width: 2;
+    stroke-miterlimit: 10;
+    position: relative;
+}
+
+.st13 {
+    clip-path: url(#SVGID_8_);
+    fill: #010101;
+    position: relative;
+}
+
+.st14 {
+    clip-path: url(#SVGID_8_);
+    position: relative;
+}
+
+.st15 {
+    clip-path: url(#SVGID_8_);
+    fill: none;
+    stroke: #010101;
+    stroke-width: 5;
+    stroke-miterlimit: 10;
+    position: relative;
+}
+
+.st16 {
+    clip-path: url(#SVGID_8_);
+    fill: none;
+    stroke: #010101;
+    stroke-width: 0.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+    position: relative;
+}
+
+.st17 {
+    clip-path: url(#SVGID_8_);
+    fill: none;
+    stroke: #010101;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+    position: relative;
+}
