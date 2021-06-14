@@ -12,7 +12,7 @@ export class AppComponent implements OnInit, OnChanges {
   title = 'reset-password-sample';
   clickMessage='';
   msg= '';
-  genNewPassword: boolean = true;
+  genNewPassword: boolean = false;
   syncPassword: boolean = true;
   configPassword: boolean = false;
   rebootCpe: boolean = true;
